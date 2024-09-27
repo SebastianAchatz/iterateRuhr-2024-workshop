@@ -5,5 +5,5 @@ namespace IR2024.PnA.Ports;
 public interface IUserRepository
 {
     void SaveUser(User user);
-    User GetUserByUsername(string userName);
+    User? GetUserByUsername(string userName);
 }

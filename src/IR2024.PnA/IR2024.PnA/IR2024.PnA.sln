@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IR2024.PnA.ApplicationDomai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IR2024.PnA.ApplicationDomain.Tests", "IR2024.PnA.ApplicationDomain.Tests\IR2024.PnA.ApplicationDomain.Tests.csproj", "{1E61D855-8A7B-4B8F-A4CB-F66C7287FB91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IR2024.PnA.Adapter.Console", "IR2024.PnA.Adapter.Console\IR2024.PnA.Adapter.Console.csproj", "{DAEBAC31-CC9E-4A01-8A4E-7AE20CA6738A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{1E61D855-8A7B-4B8F-A4CB-F66C7287FB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E61D855-8A7B-4B8F-A4CB-F66C7287FB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E61D855-8A7B-4B8F-A4CB-F66C7287FB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAEBAC31-CC9E-4A01-8A4E-7AE20CA6738A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAEBAC31-CC9E-4A01-8A4E-7AE20CA6738A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAEBAC31-CC9E-4A01-8A4E-7AE20CA6738A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAEBAC31-CC9E-4A01-8A4E-7AE20CA6738A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

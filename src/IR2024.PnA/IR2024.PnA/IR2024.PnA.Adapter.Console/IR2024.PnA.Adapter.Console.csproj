@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\IR2024.PnA.Adapter\IR2024.PnA.Adapter.csproj" />
+      <ProjectReference Include="..\IR2024.PnA.ApplicationDomain.Entities\IR2024.PnA.ApplicationDomain.Entities.csproj" />
+      <ProjectReference Include="..\IR2024.PnA.ApplicationDomain\IR2024.PnA.ApplicationDomain.csproj" />
+    </ItemGroup>
+
+</Project>

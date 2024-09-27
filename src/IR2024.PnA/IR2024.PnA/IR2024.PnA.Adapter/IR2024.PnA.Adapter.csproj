@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\IR2024.PnA.Ports\IR2024.PnA.Ports.csproj" />
+    </ItemGroup>
+
 </Project>
