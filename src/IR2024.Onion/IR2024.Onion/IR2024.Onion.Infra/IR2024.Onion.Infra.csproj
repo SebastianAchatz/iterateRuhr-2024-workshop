@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\IR2024.Onion.ApplicationCore.DomainServices\IR2024.Onion.ApplicationCore.DomainServices.csproj" />
+    </ItemGroup>
+
+</Project>
