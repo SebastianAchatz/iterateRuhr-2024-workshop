@@ -10,14 +10,15 @@ public class UserService : IUserService
     {
         _userRepository = userRepository;
     }
-    
+
     public void AddUser(User newUser)
     {
         var existingUser = _userRepository.GetUserByUsername(newUser.Username);
-        if(existingUser != null)
+        if (existingUser != null)
         {
             throw new Exception("User already exists");
         }
+
         _userRepository.SaveUser(newUser);
     }
 }
